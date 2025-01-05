@@ -14,9 +14,9 @@ function showSection(sectionId) {
     }
 }
 
-// Secara default, menampilkan bagian 'galeri-kegiatan'
+// Secara default, menampilkan bagian 'tentang'
 window.onload = () => {
-    showSection('galeri-kegiatan');
+    showSection('tentang');
 };
 
 // Tambahkan event listener pada link atau tombol navigasi
