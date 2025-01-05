@@ -19,11 +19,4 @@ window.onload = () => {
     showSection('tentang');
 };
 
-// Tambahkan event listener pada link atau tombol navigasi
-document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault(); // Mencegah aksi default tautan
-        const targetSection = event.target.getAttribute('data-section');
-        showSection(targetSection); // Panggil fungsi untuk menampilkan section
-    });
-});
+
