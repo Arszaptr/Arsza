@@ -223,10 +223,12 @@ footer.footer {
 
 /* Link */
 .kontak-info a {
+    color: inherit; /* Mengambil warna teks dari elemen induk */
     text-decoration: none;   /* Hilangkan garis bawah */
 }
 
 .kontak-info a:hover {
+    color: #007BFF; /* Warna saat tautan disentuh/kursor diarahkan */
     text-decoration: underline; /* Tambahkan garis bawah saat hover */
 }
 /* Rata kanan-kiri untuk konten */
